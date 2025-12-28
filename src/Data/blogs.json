@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "React Basics",
+    "category": "Tech",
+    "description": "Learn the fundamentals of React."
+  },
+  {
+    "id": 2,
+    "title": "Mental Discipline",
+    "category": "Mindset",
+    "description": "Why discipline matters more than motivation!"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Tips",
+    "category": "Tech",
+    "description": "Improve your JavaScript skills!"
+  },
+  {
+    "id": 4,
+    "title": "Career Growth",
+    "category": "Career",
+    "description": "How to grow as a developer?"
+  },
+  {
+    "id": 5,
+    "title": "AI Evolution",
+    "category": "Tech",
+    "description": "How to use AI as a developer?"
+  },
+  {
+    "id": 6,
+    "title": "Sports Article",
+    "category": "Sports",
+    "description": "Importance of sports in physical and mental health."
+  }
+]
