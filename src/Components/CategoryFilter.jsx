@@ -1,18 +1,30 @@
 
 
-function CategoryFilter({ categories, setSelectedCategory }) {
+function CategoryFilter({ categories, setSelectedCategory, searchQuery, setSearchQuery }) {
+  const handleSearch = () => {
+    // Search is triggered when button is clicked or Enter is pressed
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
+  };
+
   return (
-    <div className="pt-2 flex justify-between">
-    <div className="searchbar flex gap-0 items-center">
-        <input className="searchbar border-2 border-black p-2 rounded-l-3xl h-10"  type="text" name="search" id="search" placeholder='Search...' />
-        <button className="bg-black text-white px-6 py-2 rounded-r-3xl hover:bg-gray-800 transition font-semibold h-10">Search</button>
-    </div>
-    <div className="filters">
-      {categories.map((cat, index) => (
-        <button key={index} onClick={() => setSelectedCategory(cat)}>
-          {cat}
-        </button>
-      ))}
+    <div className="pt-2 px-4 sm:px-0 flex flex-col sm:flex-row justify-between gap-3 sm:gap-0">
+    
+    <div className="filters w-full sm:w-auto">
+      <select 
+        onChange={(e) => setSelectedCategory(e.target.value)}
+        className="w-full sm:w-auto border-2 border-gray-300 p-3 rounded-lg cursor-pointer font-semibold bg-white text-gray-800 hover:border-black transition shadow-md focus:outline-none focus:border-black text-sm sm:text-base"
+      >
+        {categories.map((cat, index) => (
+          <option key={index} value={cat}>
+            {cat}
+          </option>
+        ))}
+      </select>
     </div>
     </div>
   );

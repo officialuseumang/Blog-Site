@@ -3,36 +3,60 @@
     "id": 1,
     "title": "React Basics",
     "category": "Tech",
-    "description": "Learn the fundamentals of React."
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&h=300&fit=crop",
+    "description": "Learn the fundamentals of React, the most popular JavaScript library for building user interfaces. This comprehensive guide covers everything from JSX syntax and components to state management and hooks. Discover how React's component-based architecture makes it easy to build scalable and maintainable web applications. Perfect for beginners and those looking to strengthen their foundation in modern web development.",
+    "author": "John Doe",
+    "date": "Dec 15, 2025",
+    "content": "React has revolutionized the way we build web applications. By introducing a component-based architecture and virtual DOM, it has made development more efficient and applications more performant.\n\nIn this comprehensive guide, we'll explore:\n- Component creation and composition\n- Props and state management\n- React Hooks (useState, useEffect, useContext)\n- Event handling and forms\n- Best practices for React development\n\nWhether you're just starting out or looking to deepen your understanding, this guide will provide you with the knowledge you need to build modern React applications."
   },
   {
     "id": 2,
     "title": "Mental Discipline",
     "category": "Mindset",
-    "description": "Why discipline matters more than motivation!"
+    "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=500&h=300&fit=crop",
+    "description": "Why discipline matters more than motivation in achieving long-term success! Explore the psychology behind building lasting habits and developing the mental fortitude to push through challenges. Learn practical strategies to cultivate discipline in your daily life, overcome procrastination, and maintain consistency even when motivation fades. This article reveals the secret to sustainable personal and professional growth.",
+    "author": "Sarah Johnson",
+    "date": "Dec 20, 2025",
+    "content": "Motivation is fleeting, but discipline is eternal. This fundamental truth separates those who achieve their goals from those who merely dream about them.\n\nKey insights covered:\n- The difference between motivation and discipline\n- Building a disciplined mindset\n- Creating systems that support consistent action\n- Overcoming resistance and self-doubt\n- The compound effect of daily discipline\n\nDiscover how developing discipline can transform every area of your life, from fitness and health to career advancement and personal relationships."
   },
   {
     "id": 3,
     "title": "JavaScript Tips",
     "category": "Tech",
-    "description": "Improve your JavaScript skills!"
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=500&h=300&fit=crop",
+    "description": "Improve your JavaScript skills with these essential tips and tricks! From modern ES6+ features to performance optimization techniques, this article covers practical advice that will elevate your coding abilities. Learn about array methods, async/await patterns, destructuring, spread operators, and more. Whether you're preparing for interviews or working on real-world projects, these tips will make you a more efficient JavaScript developer.",
+    "author": "Mike Chen",
+    "date": "Dec 18, 2025",
+    "content": "JavaScript continues to evolve, and staying up-to-date with modern features is crucial for any developer. Here are some game-changing tips:\n\n1. Master array methods (map, filter, reduce)\n2. Understand async/await for cleaner asynchronous code\n3. Use destructuring to write more readable code\n4. Leverage the spread operator for immutability\n5. Learn about closures and their practical applications\n6. Understand the event loop and asynchronous behavior\n7. Use modern module systems (ES6 imports/exports)\n\nEach of these concepts can significantly improve your code quality and development speed."
   },
   {
     "id": 4,
     "title": "Career Growth",
     "category": "Career",
-    "description": "How to grow as a developer?"
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop",
+    "description": "How to grow as a developer and advance your career in the tech industry? This comprehensive guide explores strategies for continuous learning, building a strong portfolio, networking effectively, and navigating career transitions. Discover the skills that employers value most, how to negotiate better salaries, and tips for standing out in a competitive job market. Your roadmap to becoming a senior developer and beyond.",
+    "author": "Emily Rodriguez",
+    "date": "Dec 22, 2025",
+    "content": "Career growth as a developer requires intentional effort and strategic planning. Here's your comprehensive roadmap:\n\nTechnical Skills:\n- Master your core technologies deeply\n- Learn complementary skills (DevOps, testing, design)\n- Contribute to open source projects\n- Stay updated with industry trends\n\nSoft Skills:\n- Improve communication and collaboration\n- Learn to mentor junior developers\n- Develop project management skills\n- Build your personal brand\n\nCareer Moves:\n- Network authentically in your community\n- Document your achievements\n- Seek challenging projects that stretch your abilities\n- Don't be afraid to switch companies for growth"
   },
   {
     "id": 5,
     "title": "AI Evolution",
     "category": "Tech",
-    "description": "How to use AI as a developer?"
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
+    "description": "How to use AI as a developer to boost productivity and create innovative solutions? Explore the latest AI tools and frameworks that are transforming software development. Learn how to integrate AI-powered features into your applications, leverage code assistants like GitHub Copilot, and understand machine learning basics. Discover practical use cases, ethical considerations, and future trends in AI-assisted development.",
+    "author": "David Park",
+    "date": "Dec 25, 2025",
+    "content": "Artificial Intelligence is no longer just a buzzword—it's a practical tool that developers can leverage daily.\n\nAI Tools for Developers:\n- Code assistants (GitHub Copilot, ChatGPT)\n- Automated testing and debugging\n- Code review and optimization\n- Documentation generation\n- Natural language processing APIs\n\nPractical Applications:\n- Building chatbots and virtual assistants\n- Implementing recommendation systems\n- Image and video processing\n- Predictive analytics\n\nThe future of development lies in the effective collaboration between human creativity and AI capabilities. Learn how to position yourself at the forefront of this revolution."
   },
   {
     "id": 6,
     "title": "Sports Article",
     "category": "Sports",
-    "description": "Importance of sports in physical and mental health."
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=300&fit=crop",
+    "description": "Importance of sports in physical and mental health cannot be overstated. Discover how regular physical activity improves cardiovascular health, strengthens muscles and bones, and boosts immune function. Beyond physical benefits, learn how sports enhance mental well-being by reducing stress, improving mood, and building confidence. This article explores the science behind exercise, provides workout recommendations, and shares inspiring stories of transformation.",
+    "author": "Lisa Anderson",
+    "date": "Dec 28, 2025",
+    "content": "Regular physical activity through sports is one of the most powerful investments you can make in your health.\n\nPhysical Benefits:\n- Improved cardiovascular health\n- Stronger muscles and bones\n- Better weight management\n- Enhanced immune system\n- Increased energy levels\n\nMental Health Benefits:\n- Reduced stress and anxiety\n- Improved mood and self-esteem\n- Better sleep quality\n- Enhanced cognitive function\n- Social connection and community\n\nGetting Started:\n- Choose activities you enjoy\n- Start small and build consistency\n- Find a workout buddy or join a team\n- Set realistic goals\n- Listen to your body and rest when needed\n\nRemember, the best exercise is the one you'll actually do consistently!"
   }
 ]
