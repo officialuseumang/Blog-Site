@@ -19,7 +19,7 @@ function App() {
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showAdminPortal, setShowAdminPortal] = useState(false);
 
-  // Load user from localStorage on mount
+  // Load user from localStorage 
   useEffect(() => {
     const savedUser = localStorage.getItem('blogUser');
     if (savedUser) {
@@ -95,7 +95,8 @@ function App() {
     return (
       <AdminPortal 
         user={user} 
-        onLogout={handleBackToHome}
+        onBackToHome={handleBackToHome}
+        onLogout={handleLogout}
         blogs={blogs}
         onBlogAdded={handleBlogAdded}
         onDeleteBlog={handleDeleteBlog}

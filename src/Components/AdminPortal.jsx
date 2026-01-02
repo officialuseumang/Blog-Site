@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import AddBlogForm from "./AddBlogForm";
 
-const AdminPortal = ({ user, onLogout, blogs, onBlogAdded, onDeleteBlog }) => {
+const AdminPortal = ({ user, onBackToHome, onLogout, blogs, onBlogAdded, onDeleteBlog }) => {
   const [activeTab, setActiveTab] = useState('blogs'); // 'profile', 'blogs', 'addBlog'
   const [showAddForm, setShowAddForm] = useState(false);
   
@@ -55,7 +55,7 @@ const AdminPortal = ({ user, onLogout, blogs, onBlogAdded, onDeleteBlog }) => {
         {/* Navigation Links */}
         <nav className="space-y-2 mb-10">
           <button
-            onClick={onLogout}
+            onClick={onBackToHome}
             className="w-full text-left px-4 py-3 rounded-lg font-medium text-gray-700 hover:bg-gray-100 transition"
           >
             Home

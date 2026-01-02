@@ -6,7 +6,7 @@ const navigation = ({ searchQuery, setSearchQuery, onAddBlog, onOpenLogin, user,
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6 h-full">
         
         {/* Logo/Brand */}
-        <div className="flex-shrink-0">
+        <div className="">
           <h1 className="text-2xl md:text-3xl font-bold text-black">BlogHub</h1>
         </div>
 

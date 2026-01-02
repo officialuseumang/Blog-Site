@@ -1,4 +1,4 @@
-function LatestSection({ onReadMore, blogs = [] }) {
+function LatestSection({ onReadMore, blogs = [], onCategoryClick }) {
   const latestBlogs = blogs.sort((a, b) => b.id - a.id).slice(0, 3);
 
   return (
@@ -22,7 +22,10 @@ function LatestSection({ onReadMore, blogs = [] }) {
               <h3 className="text-3xl font-bold mb-3">{latestBlogs[0].title}</h3>
               <p className="text-lg mb-4 line-clamp-3">{latestBlogs[0].description}</p>
               <div className="flex items-center justify-between">
-                <span className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold">
+                <span 
+                  onClick={() => onCategoryClick && onCategoryClick(latestBlogs[0].category)}
+                  className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold cursor-pointer hover:bg-gray-200 transition"
+                >
                   {latestBlogs[0].category}
                 </span>
                 <button 
@@ -56,7 +59,7 @@ function LatestSection({ onReadMore, blogs = [] }) {
                 <h3 className="text-xl font-bold mb-2">{blog.title}</h3>
                 <p className="text-sm mb-3 line-clamp-2">{blog.description}</p>
                 <div className="flex items-center justify-between">
-                  <span className="bg-white text-gray-900 px-3 py-1 rounded-full text-xs font-bold">
+                  <span className="bg-white text-gray-900 px-3 py-1 rounded-full text-xs font-bold cursor-pointer">
                     {blog.category}
                   </span>
                   <button 

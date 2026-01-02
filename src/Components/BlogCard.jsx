@@ -1,10 +1,13 @@
 function BlogCard({ blog, onReadMore }) {
   return (
-    <div className="w-full sm:w-72 bg-white rounded-3xl shadow-lg flex flex-col overflow-hidden">
+    <div className="bg-white rounded-3xl shadow-lg flex flex-col overflow-hidden h-full hover:shadow-xl transition-shadow duration-300">
 
       {/* Image */}
       {blog.image && (
-        <div className="w-full h-40 sm:h-48 overflow-hidden">
+        <div className="w-full aspect-video overflow-hidden relative">
+          <span className="text-xs bg-blue-100 text-blue-600 rounded-full absolute px-2 py-1 mt-2 ml-2 z-10">
+            {blog.category}
+          </span>
           <img 
             src={blog.image} 
             alt={blog.title}
@@ -13,23 +16,20 @@ function BlogCard({ blog, onReadMore }) {
         </div>
       )}
 
-      <div className="flex-[1.5] px-3 sm:px-4 pt-3 sm:pt-4 font-semibold text-base sm:text-lg flex items-center gap-2 flex-wrap">
+      <div className="px-4 pt-4 font-semibold text-base sm:text-lg flex items-center gap-2 flex-wrap line-clamp-2">
         {blog.title}
-        <span className="text-xs bg-blue-100 text-blue-600 px-3 py-1 rounded-full ml-auto">
-          {blog.category}
-        </span>
       </div>
 
-      <div className="flex-[4.5] px-3 sm:px-4 text-xs sm:text-sm text-gray-600 overflow-hidden">
-        <p className="line-clamp-4">
+      <div className="px-4 text-sm text-gray-600 overflow-hidden">
+        <p className="line-clamp-3">
           {blog.description}
         </p>
       </div>
 
-      <div className="flex-[2.5] px-3 sm:px-4 pb-3 sm:pb-4 flex items-end">
+      <div className="px-4 pb-4 flex items-end">
         <button 
           onClick={() => onReadMore(blog)}
-          className="w-full py-2 bg-black text-white rounded-xl hover:bg-gray-800 transition text-sm sm:text-base"
+          className="w-full mt-4 py-2 bg-black text-white rounded-xl hover:bg-gray-800 transition text-sm font-medium"
         >
           Read More
         </button>
